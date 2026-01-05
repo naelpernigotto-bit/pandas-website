@@ -1,0 +1,247 @@
+body{
+    margin: 0; 
+    font-family: system-ui;
+}
+
+.hero {
+    background-image: url("../Images/Panda.png");
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    height: 700px;
+    
+
+    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+
+    line-height: 1.6;
+
+ 
+
+}
+
+.hero h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -20px;
+}
+
+.hero h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero h3 {
+    text-align: center;
+
+}
+
+
+nav{
+    background: #05432c;
+    height: 50px;
+    width: 100%;    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+label.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 260px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 40px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 15px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+section h2 {
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif
+}
+
+.p1 {
+    padding-left:100px;
+    padding-right: 200px;
+    line-height: 1.7;
+    font-size: 22px;
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+   
+}
+.p2 {
+    padding-left: 600px;
+    padding-right: 100px;
+    line-height: 1.7;
+    font-size: 22px;
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    color: white
+}
+
+.p3 {
+    padding-left: 180px;
+    padding-right: 400px;
+    line-height: 1.7;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.p4 {
+   text-align: center;
+    line-height: 1.7;
+    font-size: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color: white;
+}
+
+body {
+    background-image: url("../Images/leaf_white.jpg");
+    background-repeat: repeat;
+}
+
+#Habitat {
+    padding-left: 600px;
+    margin-top: 50px;
+    color: white
+}
+
+#behavior_fun_facts {
+   text-align: center;
+   margin-top: -30px;
+   color: white;
+   margin-right: 60px;
+}
+
+#container {
+    display: flex;
+  
+}
+.my-image {
+    width: 500px;
+    height: 500px;
+    padding-right: 40px;
+    padding-top: -89px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -50px;
+    margin-right: 40px;
+}
+
+.BambooForest {
+    margin-left: 80px;
+    margin-top: 80px;
+    height: 496px;
+    width: 331px;
+    float: left;
+    border-style: solid;
+    border-color: white;
+}
+
+#nutrition {
+    margin-top: 20px;
+    margin-left: 310px;
+    color: white;
+    margin-top: -20px;
+}
+
+
+.second {
+    background-image: url("../Images/leafdarkgreen.jpg");
+    background-repeat: repeat;
+    height: 700px;
+    margin-top: 80px;
+}
+
+.third {
+    background-image: url("../Images/PandaNutrition.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-position-x: center;
+    background-attachment: scroll;
+    margin-top: 130px;
+    height: 902px;
+    filter: brightness(100%);
+    padding-left: 300px;
+    padding-top: 100px;
+    
+}
+
+.fourth {
+    background-image: url("../Images/greenleaves.jpg");
+    background-repeat: repeat;
+    padding-bottom: 80px;
+}
+
+.PandaBehav {
+    width: 1300px;
+    margin-left: 175px;
+    border: solid white;
+}
+
+.conclusion {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 80px;
+}
+
+.link {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+}
+
+a {
+    color: rgb(0, 229, 149);
+}
+
+html {
+    scroll-behavior: smooth;
+}
